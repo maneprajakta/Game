@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="head">
+        <h1 class="firstheading">ROCK PAPER SCISSOR</h1>
+        </div>
+    </header>
+    <main>
+        <div class="first">
+           <h1 class="playh">PLAY WITH COMPUTER! 🤖 </h1> 
+        </div>
+        <div class="combine">
+            <div class="pra">Choose One!</div>
+            <div class="image">
+             <img id="fig1" src="resources/images/paper.jpeg" alt="stone">
+             <img id="fig2" src="resources/images/scissor.jpeg" alt="scissor">
+             <img id="fig3" src="resources/images/stone.jpeg" alt="stone">
+            </div>
+        </div>
+        
+    </main>
+      <div class="buttonreset">
+     <button id="click">Not Yet Selected!</button>
+     <button id="reset">Reset!</button>
+     <button id="computer">Computer is Waiting! 🤖</button>
+     </div>
+     <div class="playbutton">
+     <button id="play"><span>Play!</span></button>
+     <audio preload="auto">
+        <source src="resources/sounds/mouseclick.wav" type="audio/wav" />
+    </audio>
+    <audio preload="auto">
+    <source src="resources/sounds/win.wav" type="audio/wav" />
+    </audio>
+    <audio preload="auto">
+        <source src="resources/sounds/loose.wav" type="audio/wav" />
+    </audio>
+    </div>
+    <script src="script.js">
+    </script>
+</body>
+</html>
